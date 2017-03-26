@@ -12,6 +12,7 @@ Treasury System DApps:
 
 Also Treasury System will include this DApps:
 1. Smart Lottery. ([under development](https://github.com/Dexaran/Smart-Lottery))
+2. Project Ethernity. (concept)
 
 Every Treasury System DApp will output its income in a treasury-contract where DEX token holders would be able to convert their tokens into Ether benefiting from this DApps.
 Even if one of treasury DApps will succeed it will increase DEX token usability.
