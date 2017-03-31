@@ -72,7 +72,7 @@ contract DexNS {
     
     
     
-    function Treasury() {
+    function Bursary() {
         owner=msg.sender;
     }
     
