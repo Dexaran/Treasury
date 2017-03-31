@@ -1,7 +1,6 @@
 
 pragma solidity ^0.4.9;
 
-
 contract DexNS {
      function name(string) constant returns (bytes32);
      function getName(string) constant returns (address _owner, address _associated, string _value, uint _end);
