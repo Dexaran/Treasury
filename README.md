@@ -38,8 +38,10 @@ DEX token is a one-time executable token. You can hold it as long as you want bu
 Since DEX token is burnable currency it will have minting. Every 2000 blocks 150 new DEX tokens will be issued and placed on Exchange where they can be bought at fixed price, all funds from new tokens trade will instantly go to Treasury contract. It means if no one will claim rewards from Treasury, DEX token supply will double in avg 1 year. 
 (5600 blocks ~ 1 day; avg 420 tokens/ day minted)
 
+Monetary policy can be changed. The way of issuing and redistributing new DEX tokens can be changed.
+Every DEX token minting is governed by Central Minter contract. So every other decentralized exchange may be allowed to mint tokens but only 200 tokens per 2000 blocks total could be minted.
 
-
+# Side DApps
 
 Considering the option to include these DApps:
 1. Smart Lottery. ([under development](https://github.com/Dexaran/Smart-Lottery) / delayed)
