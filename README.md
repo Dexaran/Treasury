@@ -29,7 +29,7 @@ As every new DApp will bring more income and may increase DEX token value, it ma
 Every successful DApp will add more value to DEX token, that will make more people interested.
 
 # DEX token
-DEX token will be ERC23 token (but with no vulnerable `approval` function that will make DEX token more secure).
+DEX token is ERC23 token (but with no vulnerable `approval` function that will make DEX token more secure).
 Its planned to launch a crowdsale when core Treasury DApps would be launched and Name Service will be upgraded.
 140 000 DEX tokens would be sold from crowdsale.
 
