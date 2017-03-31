@@ -1,6 +1,7 @@
 
 pragma solidity ^0.4.9;
 
+
 contract DexNS {
      function name(string) constant returns (bytes32);
      function getName(string) constant returns (address _owner, address _associated, string _value, uint _end);
@@ -62,7 +63,8 @@ contract DexNS {
     //Payable fallback function that will convert every incoming DEX intor Ether benefit
     function tokenFallback(address _from, uint _value, bytes _data) dexTokenOnly returns (bool result) {
         DEXToken dt = DEXToken(ns.addressOf("DEX token"));
-        if(_from.send(this.balance * (_value / dt.getSupply()))) {
+        uint256 founderFee = this.balance * (_value / dt.getSupply()) * 1 / 100; //founder fee is 1%
+        if((_from.send(this.balance * (_value / dt.getSupply()) - founderFee)) && (ns.addressOf("Dexaran").send(founderFee))) {
             dt.burn(_from, _value);
         }
     }
