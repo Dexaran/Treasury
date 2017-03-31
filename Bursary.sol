@@ -30,7 +30,7 @@ contract DexNS {
   function burn(address burner, uint value) returns (bool ok);
 }
  
- contract Treasury {
+ contract Bursary {
     modifier dexTokenOnly {
         if (msg.sender!=ns.addressOf("DEX token"))
             throw;
