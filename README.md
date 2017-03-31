@@ -3,7 +3,7 @@
 The main goal of Dexaran Treasury System is to build a platform for future DApps development that will incentivise all participants to promote / help each other to succeed. This will add more interaction between all involved DApps and help each of them to grow and progress.
 
 Core Bursary System DApps are:
-1. Treasury contract. (under development)
+1. Bursary contract. (under development)
 2. DEX token. (under development) 
 3. Naming Service. ([experimental version finished](https://github.com/Dexaran/DNS))
 4. Decentralized Exchange. ([under development](https://github.com/Dexaran/DecentralizedEXchange))
