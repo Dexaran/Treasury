@@ -41,7 +41,7 @@ Since DEX token is burnable currency it will have minting. Every 2000 blocks 150
 Monetary policy can be changed. The way of issuing and redistributing new DEX tokens can be changed.
 Every DEX token minting is governed by Central Minter contract. So every other decentralized exchange may be allowed to mint tokens but only 200 tokens per 2000 blocks total could be minted.
 
-As Treasury System founder I will receive 1% dev fee from tokens.
+As Treasury System founder I will receive 1% dev fee from tokens. I'm planning to redistribute 1% dev fee between treasury DApps developers to increase their incentivisation by another contract.
 
 # Side DApps
 
