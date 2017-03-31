@@ -35,7 +35,7 @@ Its planned to launch a crowdsale when core Treasury DApps would be launched and
 
 ### Monetary policy
 DEX token is a one-time executable token. You can hold it as long as you want but you can claim your reward from Treasury only once. Executing of reward claiming will burn used tokens. This monetary policy considered to prevent of creating a permanent parasite draining funds from Treasury forever.
-Since DEX token is burnable currency it will have minting. Every 2000 blocks 150 new DEX tokens will be issued and placed on Exchange where they can be bought at fixed price, all funds from new tokens trade will instantly go to Treasury contract. It means if no one will claim rewards from Treasury, DEX token supply will double in avg 1 year. 
+Since DEX token is burnable currency it will have minting. Every 2000 blocks 150 new DEX tokens will be issued and placed on Exchange where they can be bought at fixed price. If no one will buy new minted tokens or there will be a number of remaining tokens after 2000 blocks every unclaimed token will be burned. All funds from new tokens trade will instantly go to Treasury contract (i.e. redistributed between other DEX holders). It means if no one will claim rewards from Treasury, DEX token supply will double in avg 1 year. 
 (5600 blocks ~ 1 day; avg 420 tokens/ day minted)
 
 Monetary policy can be changed. The way of issuing and redistributing new DEX tokens can be changed.
