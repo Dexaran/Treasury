@@ -1,6 +1,6 @@
 # Treasury System
 
-The main goal of Dexaran Treasury System was to build a platform for future DApps development that will incentivise all participants to promote / help each other to succeed. This will add more interaction between all involved DApps and help each of them to grow and progress.
+The main goal of Dexaran Treasury System is to build a platform for future DApps development that will incentivise all participants to promote / help each other to succeed. This will add more interaction between all involved DApps and help each of them to grow and progress.
 
 Core Treasury System DApps are:
 1. Treasury contract. (under development)
