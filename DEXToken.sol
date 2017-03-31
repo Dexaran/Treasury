@@ -1,7 +1,5 @@
 pragma solidity ^0.4.9;
  
- /* New ERC23 contract interface */
- 
 contract contractReceiver{ function tokenFallback(address from, uint value, bytes data) returns (bool ok); }
 
 contract DexNS {
@@ -23,13 +21,6 @@ contract ERC23_mod {
   function transfer(address to, uint value, bytes data) returns (bool ok);
   event Transfer(address indexed from, address indexed to, uint value);
 }
-
-
- /*
- * ERC23 token by Dexaran
- *
- * https://github.com/Dexaran/ERC23-tokens
- */
  
 contract DEXToken is ERC23_mod {
     
@@ -154,21 +145,25 @@ contract DEXToken is ERC23_mod {
         balances[_minter] += _amount;
         totalSupply += _amount;
         remainingTokens -= _amount;
+        Mint(_minter, _amount);
         return true;
     }
     return false;
   }
   
-  function burnToken(address _burner, uint _amount) returns (bool result) {
+  function burnToken(address _burner, uint _amount) onlyCentralMinter returns (bool result) {
       if(balances[_burner] >= _amount) {
         balances[_burner] -= _amount;
         totalSupply -= _amount;
+        Burn(_burner, _amount);
         return true;
       }
       return false;
   }
   
   
+  
+  //DEBUG functions
     
     function dispose_ONLYDEBUG() onlyOwner onlyDebug {
         selfdestruct(owner);
